@@ -10,5 +10,4 @@
 </p>
 
 
-|:-:|:-:|
-|<img width="460" height="300" src="https://user-images.githubusercontent.com/102717259/161205502-0d273386-020f-4cc4-b313-757d9fd84ee4.png">|<img width="460" height="300" src="https://user-images.githubusercontent.com/102717259/161206374-fed76c9a-9254-4cd1-aea8-6123d2744d2c.png">|
+<img width="460" height="300" src="https://user-images.githubusercontent.com/102717259/161205502-0d273386-020f-4cc4-b313-757d9fd84ee4.png">  <img width="460" height="300" src="https://user-images.githubusercontent.com/102717259/161206374-fed76c9a-9254-4cd1-aea8-6123d2744d2c.png">
