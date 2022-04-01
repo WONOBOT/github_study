@@ -6,6 +6,6 @@
 
 2. 홈페이지에서 설치파일 다운로드
 <p align="center">
-<img width="460" height="300" src="https://user-images.githubusercontent.com/102717259/161206374-fed76c9a-9254-4cd1-aea8-6123d2744d2c.png">  <img width="460" height="300" src="https://user-images.githubusercontent.com/102717259/161210162-f7104366-9155-4a1d-b18f-7a81e9c595cf.png">  <img width="100" height="110" src="https://user-images.githubusercontent.com/102717259/161210213-521ccd34-bb3d-4fbf-adf4-09f18ee1ab2c.png">
+<img width="460" height="300" src="https://user-images.githubusercontent.com/102717259/161206374-fed76c9a-9254-4cd1-aea8-6123d2744d2c.png">  <img width="460" height="300" src="https://user-images.githubusercontent.com/102717259/161210162-f7104366-9155-4a1d-b18f-7a81e9c595cf.png">  <img width="90" height="100" src="https://user-images.githubusercontent.com/102717259/161210213-521ccd34-bb3d-4fbf-adf4-09f18ee1ab2c.png">
 </p>
 
