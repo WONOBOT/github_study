@@ -1,4 +1,4 @@
-- 홈페이지에서 "Download for Windows" 버튼 클릭 <span style="color:red">(꼭 설치하는 PC의 OS 확인)</span>
+* 홈페이지에서 "Download for Windows" 버튼 클릭 <span style="color:red">(꼭 설치하는 PC의 OS 확인)</span>
 # SourceTree 설치하기
 ### 1. [SourceTree](https://www.sourcetreeapp.com) 홈페이지 접속
 <p align="center">
