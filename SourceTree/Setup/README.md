@@ -10,3 +10,6 @@
 </p>
 
 ### 3. 설치파일 실행
+<p align="center">
+<img width="30%" height="30%" src="https://user-images.githubusercontent.com/102717259/161213156-23f969c7-55fe-418b-b7de-7ed6c9928c1c.png">  <img width="30%" height="30%" src="https://user-images.githubusercontent.com/102717259/161213358-8c4fc30d-0c2e-4c09-b721-02dd65ec94f0.png">  <img width="10%" height="10%" src="https://user-images.githubusercontent.com/102717259/161213490-0585ac7f-0105-4639-bacc-fccd38708860.png">
+</p>
