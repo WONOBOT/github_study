@@ -1,4 +1,4 @@
-# SourceTree 초기 설정
+# SourceTree 저장소 설정
 ### 1. 원격 저장소 설정
 * Step 1. 상단 메뉴에서 **[Remote]** 클릭하고, 좌측에 **[계정 추가]** 클릭
 <p align="center">
