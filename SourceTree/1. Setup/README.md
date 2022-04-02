@@ -43,6 +43,3 @@
 <p align="center">
   <img width="50%" height="50%" src="https://user-images.githubusercontent.com/102717259/161223837-7128de32-971b-40e2-95ea-a50bb62f3f9b.png">
 </p>
-
-
-
