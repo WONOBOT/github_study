@@ -8,4 +8,7 @@
   - **C:\Users\(사용자이름)\AppData\Local\Atlassian**
   - **C:\Users\(사용자이름)\AppData\Local\SourceTree**
   - **C:\Users\(사용자이름)\AppData\Roaming\Atlassian** 
-    * (**AppData** 폴더가 안보이면 폴더 설정에서 **“숨김 폴더”** 표시)
+    * **AppData** 폴더가 안보이면 폴더 상단 **보기**탭 에서 **“숨긴 항목”** 체크
+<p align="center">
+  <img width="50%" height="50%" src="https://user-images.githubusercontent.com/102717259/161420052-be4b437a-350c-428c-8b1e-53f8849c9aa4.png">
+</p>
