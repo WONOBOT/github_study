@@ -2,6 +2,9 @@
 
 \# **[Github Docs](https://docs.github.com/en/get-started/quickstart) 참고.**
 
+1. [폴더 만들기](https://github.com/WONOBOT/github_study/blob/main/Github/Manual/README.md#1-github-%ED%8F%B4%EB%8D%94-%EB%A7%8C%EB%93%A4%EA%B8%B0)
+
+------
 ### 1. Github 폴더 만들기
 
 * step 1. 원하는 Repository에서 우측 상단에 **[Add file]-[Create new file]** 클릭
