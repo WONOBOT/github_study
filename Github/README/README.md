@@ -8,9 +8,9 @@
 * 아래 링크 클릭하면 해당 위치로 이동
 1. [문서 제목 및 글머리 (Headers)](https://github.com/WONOBOT/github_study/tree/main/Github/README#1-%EB%AC%B8%EC%84%9C-%EC%A0%9C%EB%AA%A9-%EB%B0%8F-%EA%B8%80%EB%A8%B8%EB%A6%AC-headers)
 2. [목록, 글머리 기호](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#2-%EB%AA%A9%EB%A1%9D-%EA%B8%80%EB%A8%B8%EB%A6%AC-%EA%B8%B0%ED%98%B8)
-3. [수평선 (Horizontal Rules)](https://github.com/WONOBOT/github_study/edit/main/Github/README/README.md#3-%EC%88%98%ED%8F%89%EC%84%A0-horizontal-rules)
-4. [링크](https://github.com/WONOBOT/github_study/edit/main/Github/README/README.md#4-%EB%A7%81%ED%81%AC)
-5. [강조](https://github.com/WONOBOT/github_study/edit/main/Github/README/README.md#5-%EA%B0%95%EC%A1%B0)
+3. [수평선 (Horizontal Rules)](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#3-%EC%88%98%ED%8F%89%EC%84%A0-horizontal-rules)
+4. [링크](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#4-%EB%A7%81%ED%81%AC)
+5. [강조](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#5-%EA%B0%95%EC%A1%B0)
 --------
 #### 1. 문서 제목 및 글머리 (Headers)
 
