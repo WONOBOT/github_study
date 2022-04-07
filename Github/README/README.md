@@ -8,7 +8,9 @@
 * 아래 링크 클릭하면 해당 위치로 이동
 1. [문서 제목 및 글머리 (Headers)](https://github.com/WONOBOT/github_study/tree/main/Github/README#1-%EB%AC%B8%EC%84%9C-%EC%A0%9C%EB%AA%A9-%EB%B0%8F-%EA%B8%80%EB%A8%B8%EB%A6%AC-headers)
 2. [목록, 글머리 기호](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#2-%EB%AA%A9%EB%A1%9D-%EA%B8%80%EB%A8%B8%EB%A6%AC-%EA%B8%B0%ED%98%B8)
-
+3. [수평선 (Horizontal Rules)](https://github.com/WONOBOT/github_study/edit/main/Github/README/README.md#3-%EC%88%98%ED%8F%89%EC%84%A0-horizontal-rules)
+4. [링크](https://github.com/WONOBOT/github_study/edit/main/Github/README/README.md#4-%EB%A7%81%ED%81%AC)
+5. [강조](https://github.com/WONOBOT/github_study/edit/main/Github/README/README.md#5-%EA%B0%95%EC%A1%B0)
 --------
 #### 1. 문서 제목 및 글머리 (Headers)
 
@@ -32,8 +34,8 @@
     H2 부제목
     -------------
 
-* 글머리
-  * 글머리: 1~6까지만 지원
+* 글머리 <br>
+  글머리: 1~6까지만 지원
 
   | MD 문법 | HTML 문법 | 설명|
   |:--|:--|:--|
@@ -142,3 +144,94 @@
 * 글머리 기호 1
   - 글머리 기호 2
     + 글머리 기호 3
+
+----------
+#### 3. 수평선 (Horizontal Rules)
+* 아래 줄은 모두 수평선을 만든다. 마크다운 문서를 미리보기로 출력할 때 **페이지 나누기** 용도로 많이 사용
+
+    ```
+    * * *
+
+    ***
+
+    *****
+
+    - - -
+
+    ---------------------------------------
+    ```
+    * 결과
+    * * *
+
+    ***
+
+    *****
+
+    - - -
+
+    --------------------------------------- 
+    <br>
+
+----------
+#### 4. 링크
+* 참조링크
+
+    ```
+    [link keyword][id]
+
+    [id]: URL "Optional Title here"
+
+    // code
+    Link: [Google][googlelink]
+
+    [googlelink]: https://google.com "Go google"
+    ```
+    * 결과
+
+    Link: [Google][googlelink]
+
+    [googlelink]: https://google.com "Go google"
+
+* 외부링크
+    ```
+    사용문법: [Title](link)
+    적용예: [Google](https://google.com, "google link")
+    ```
+
+    * 결과
+    
+    Link: [Google](https://google.com, "google link")
+
+* 자동연결
+    ```
+    일반적인 URL 혹은 이메일주소인 경우 적절한 형식으로 링크를 형성한다.
+
+    외부링크: <http://example.com/>
+    이메일링크: <address@example.com>
+    ```
+
+    * 결과
+    
+    외부링크: <http://example.com/>
+    이메일링크: <address@example.com>
+
+----------
+#### 5. 강조
+* 문장 중간에 사용할 경우에는 띄어쓰기를 사용하는 것이 좋다.
+    ```
+    문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋다.
+    
+    *single asterisks*
+    _single underscores_
+    **double asterisks**
+    __double underscores__
+    ~~cancelline~~
+    ```
+    * 결과 <br>
+    *single asterisks* <br>
+    _single underscores_ <br>
+    **double asterisks** <br>
+    __double underscores__ <br>
+    ~~cancelline~~ <br>
+
+----------
