@@ -11,6 +11,7 @@
 3. [수평선 (Horizontal Rules)](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#3-%EC%88%98%ED%8F%89%EC%84%A0-horizontal-rules)
 4. [링크](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#4-%EB%A7%81%ED%81%AC)
 5. [강조](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#5-%EA%B0%95%EC%A1%B0)
+6. [줄바꿈](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#6-%EC%A4%84%EB%B0%94%EA%BF%88)
 --------
 #### 1. 문서 제목 및 글머리 (Headers)
 
@@ -234,4 +235,27 @@
     __double underscores__ <br>
     ~~cancelline~~ <br>
 
+----------
+#### 6. 줄바꿈
+* 줄바꿈을 하지않으면 Enter를 입력해도 문장이 이어서 나온다.
+  | MD 문법 | HTML 문법 |
+  |:--|:--|
+  |'   '|\<br>|
+    ```
+    1. 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다. 
+    이렇게
+
+    2. 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.___\\ 띄어쓰기
+    이렇게
+
+    3. 줄 바꿈을 하기 위해서는 문장 마지막에서 \<br>을 쓴다. <br>
+    이렇게
+    ```
+    * 결과 <br>
+    1. 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.
+    이렇게
+    2. 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.    \
+    이렇게
+    3. 줄 바꿈을 하기 위해서는 문장 마지막에서 **\<br>** 을 쓴다. <br>
+    이렇게
 ----------
