@@ -446,3 +446,7 @@
 
 ----------
  
+- [ ] 체크박스(false)
+- [x] 체크박스(true)
+
+테이블, Backslash escapes, Emoji 이모지 Using emoji ( GitHub Flavored Markdown ), 이미지, 
