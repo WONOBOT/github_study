@@ -14,6 +14,7 @@
 6. [줄바꿈](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#6-%EC%A4%84%EB%B0%94%EA%BF%88)
 7. [인용구](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#7-%EC%9D%B8%EC%9A%A9%EA%B5%AC)
 8. [들여쓰기](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#8-%EB%93%A4%EC%97%AC%EC%93%B0%EA%B8%B0)
+9. [코드블럭](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#9-%EC%BD%94%EB%93%9C%EB%B8%94%EB%9F%AD)
 
 --------
 #### 1. 문서 제목 및 글머리 (Headers)
@@ -326,3 +327,122 @@
     end code block.
 
 ----------
+#### 9. 코드블럭
+코드블럭은 다음과 같이 2가지 방식 사용가능
+
+* `<pre><code>{code}</code></pre>` 이용방식
+    ```
+    <pre>
+    <code>
+    void main() {
+        printf("Hello, world!");
+    }
+    </code>
+    </pre>
+    ```
+    * 결과
+    <pre>
+    <code>
+    void main() {
+        printf("Hello, world!");
+    }
+    </code>
+    </pre>
+
+* 코드블럭코드("\```") 을 이용하는 방법
+
+    <pre>
+    <code>
+    ```
+    void main() {
+        printf("Hello, world!");
+    }
+    ```
+    </code>
+    </pre>
+    * 결과
+    ```
+    void main() {
+        printf("Hello, world!");
+    }
+    ```
+
+    **깃헙**에서는 코드블럭코드("\```") 시작점에 사용하는 언어를 선언하여 [문법강조(Syntax highlighting)](https://docs.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks#syntax-highlighting)이 가능 <br>
+    | 언어 | 혼용가능 |
+    |:--|:--|
+    |Bash|bash|
+    |C#|cs|
+    |C++|cpp|
+    |CSS|css|
+    |Diff|diff|
+    |HTML, XML|html|
+    |HTTP|http|
+    |Ini|ini|
+    |JSON|json|
+    |Java|java|
+    |JavaScript|javascript|
+    |PHP|php|
+    |Perl|perl|
+    |Python|python|
+    |Ruby|ruby|
+    |SQL|sql|
+    
+    <pre>
+    <code>
+    ```C++
+    void main() {
+        printf("Hello, world!");
+    }
+    ```
+    </code>
+    </pre>
+    
+    * 결과
+    ```C++
+    void main() {
+        printf("Hello, world!");
+    }
+    ```
+    
+    <pre>
+    <code>
+    ```Python
+    def hello():
+    print('Hello, world!')
+    
+    hello()
+    ```
+    </code>
+    </pre>
+    
+    * 결과
+    ```Python
+    def hello():
+    print('Hello, world!')
+    
+    hello()
+    ```
+    
+    <pre>
+    <code>
+    ```java
+    public class BootSpringBootApplication {
+      public static void main(String[] args) {
+        System.out.println("Hello, world!");
+      }
+    }
+    ```
+    </code>
+    </pre>
+    
+    * 결과
+    ```java
+    public class BootSpringBootApplication {
+      public static void main(String[] args) {
+        System.out.println("Hello, world!");
+      }
+    }
+    ```
+
+----------
+ 
