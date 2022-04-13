@@ -8,13 +8,14 @@
 * 아래 링크 클릭하면 해당 위치로 이동
 1. [문서 제목 및 글머리 (Headers)](https://github.com/WONOBOT/github_study/tree/main/Github/README#1-%EB%AC%B8%EC%84%9C-%EC%A0%9C%EB%AA%A9-%EB%B0%8F-%EA%B8%80%EB%A8%B8%EB%A6%AC-headers)
 2. [목록, 글머리 기호](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#2-%EB%AA%A9%EB%A1%9D-%EA%B8%80%EB%A8%B8%EB%A6%AC-%EA%B8%B0%ED%98%B8)
-3. [수평선 (Horizontal Rules)](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#3-%EC%88%98%ED%8F%89%EC%84%A0-horizontal-rules)
-4. [링크](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#4-%EB%A7%81%ED%81%AC)
-5. [강조](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#5-%EA%B0%95%EC%A1%B0)
-6. [줄바꿈](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#6-%EC%A4%84%EB%B0%94%EA%BF%88)
-7. [인용구](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#7-%EC%9D%B8%EC%9A%A9%EA%B5%AC)
-8. [들여쓰기](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#8-%EB%93%A4%EC%97%AC%EC%93%B0%EA%B8%B0)
-9. [코드블럭](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#9-%EC%BD%94%EB%93%9C%EB%B8%94%EB%9F%AD)
+3. [체크박스](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#3-%EC%B2%B4%ED%81%AC%EB%B0%95%EC%8A%A4)
+4. [수평선 (Horizontal Rules)](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#4-%EC%88%98%ED%8F%89%EC%84%A0-horizontal-rules)
+5. [링크](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#5-%EB%A7%81%ED%81%AC)
+6. [강조](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#6-%EA%B0%95%EC%A1%B0)
+7. [줄바꿈](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#7-%EC%A4%84%EB%B0%94%EA%BF%88)
+8. [인용구](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#8-%EC%9D%B8%EC%9A%A9%EA%B5%AC)
+9. [들여쓰기](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#9-%EB%93%A4%EC%97%AC%EC%93%B0%EA%B8%B0)
+10. [코드블럭](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#10-%EC%BD%94%EB%93%9C%EB%B8%94%EB%9F%AD)
 
 --------
 #### 1. 문서 제목 및 글머리 (Headers)
@@ -151,7 +152,19 @@
     + 글머리 기호 3
 
 ----------
-#### 3. 수평선 (Horizontal Rules)
+#### 3. 체크박스
+* 대괄호 []앞뒤로 space(여백)를 꼭 입력 필수
+    ```
+    - [ ] 체크박스(false)
+    - [x] 체크박스(true)
+    ```
+    
+    * 결과
+    - [ ] 체크박스(false)
+    - [x] 체크박스(true)
+
+----------
+#### 4. 수평선 (Horizontal Rules)
 * 아래 줄은 모두 수평선, 마크다운 문서를 미리보기로 출력할 때 **페이지 나누기** 용도로 많이 사용
 
     ```
@@ -178,7 +191,7 @@
     <br>
 
 ----------
-#### 4. 링크
+#### 5. 링크
 * 참조링크
 
     ```
@@ -221,7 +234,7 @@
     이메일링크: <address@example.com>
 
 ----------
-#### 5. 강조
+#### 6. 강조
 * 문장 중간에 사용할 경우에는 띄어쓰기를 사용하는 것이 좋음
     ```    
     *기울임체*
@@ -242,7 +255,7 @@
 
     문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋음
 ----------
-#### 6. 줄바꿈
+#### 7. 줄바꿈
 * 줄바꿈을 하지않으면 Enter를 입력해도 문장이 이어서 나옴
   | MD 문법 | HTML 문법 |
   |:--|:--|
@@ -266,7 +279,7 @@
     이렇게
 
 ----------
-#### 7. 인용구
+#### 8. 인용구
 * 이메일에서 사용하는 ```>``` 블럭인용문자를 이용
     ```
     > 첫번째 인용구
@@ -296,7 +309,7 @@
     >	```
 
 ----------
-#### 8. 들여쓰기
+#### 9. 들여쓰기
 * 4개의 공백 또는 하나의 탭으로 들여쓰기를 만나면 변환되기 시작하여 들여쓰지 않은 행을 만날때까지 변환됨
     ```
     This is a normal paragraph:
@@ -327,7 +340,7 @@
     end code block.
 
 ----------
-#### 9. 코드블럭
+#### 10. 코드블럭
 코드블럭은 다음과 같이 2가지 방식 사용가능
 
 * `<pre><code>{code}</code></pre>` 이용방식
@@ -403,7 +416,7 @@
         printf("Hello, world!");
     }
     ```
-    
+    ---
     <pre>
     <code>
     ```Python
@@ -422,7 +435,7 @@
     
     hello()
     ```
-    
+    ---
     <pre>
     <code>
     ```java
@@ -445,8 +458,6 @@
     ```
 
 ----------
- 
-- [ ] 체크박스(false)
-- [x] 체크박스(true)
+
 
 테이블, Backslash escapes, Emoji 이모지 Using emoji ( GitHub Flavored Markdown ), 이미지, 
