@@ -17,6 +17,7 @@
 9. [들여쓰기](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#9-%EB%93%A4%EC%97%AC%EC%93%B0%EA%B8%B0)
 10. [코드블럭](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#10-%EC%BD%94%EB%93%9C%EB%B8%94%EB%9F%AD)
 11. [표 (Table)](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#11-%ED%91%9C-table)
+12. [특수기호 (Backslash Escapes)](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#12-%ED%8A%B9%EC%88%98%EA%B8%B0%ED%98%B8-backslash-escapes)
 --------
 #### 1. 문서 제목 및 글머리 (Headers)
 
@@ -564,5 +565,37 @@
     | 내용 5 | 내용 6 | 내용 7 | 내용 8 |
 
 ----------
+#### 12. 특수기호 (Backslash Escapes)
+* **Backslash `\`** 를 이용해 특수 기호를 표시할 수 있음
 
- Backslash escapes, Emoji 이모지 Using emoji ( GitHub Flavored Markdown ), 이미지, 
+    ```
+    \\
+    \`
+    \*
+    \_
+    \{ \}
+    \[ \]
+    \( \)
+    \#
+    \+
+    \-
+    \.
+    \!
+    ```
+    
+    * 결과  <br>
+    \\ <br>
+    \` <br>
+    \* <br>
+    \_ <br>
+    \{ \} <br>
+    \[ \] <br>
+    \( \) <br>
+    \# <br>
+    \+ <br>
+    \- <br>
+    \. <br>
+    \! <br>
+    
+----------
+ , Emoji 이모지 Using emoji ( GitHub Flavored Markdown ), 이미지, 
