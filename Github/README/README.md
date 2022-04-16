@@ -598,4 +598,4 @@
     \! <br>
     
 ----------
- , Emoji 이모지 Using emoji ( GitHub Flavored Markdown ), 이미지, 
+Emoji 이모지 Using emoji ( GitHub Flavored Markdown ), 이미지, 
