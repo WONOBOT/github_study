@@ -7,17 +7,20 @@
 ### README.md(마트 다운) 문법
 * 아래 링크 클릭하면 해당 위치로 이동
 1. [문서 제목 및 글머리 (Headers)](https://github.com/WONOBOT/github_study/tree/main/Github/README#1-%EB%AC%B8%EC%84%9C-%EC%A0%9C%EB%AA%A9-%EB%B0%8F-%EA%B8%80%EB%A8%B8%EB%A6%AC-headers)
-2. [목록, 글머리 기호](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#2-%EB%AA%A9%EB%A1%9D-%EA%B8%80%EB%A8%B8%EB%A6%AC-%EA%B8%B0%ED%98%B8)
-3. [체크박스](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#3-%EC%B2%B4%ED%81%AC%EB%B0%95%EC%8A%A4)
-4. [수평선 (Horizontal Rules)](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#4-%EC%88%98%ED%8F%89%EC%84%A0-horizontal-rules)
-5. [링크](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#5-%EB%A7%81%ED%81%AC)
-6. [강조](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#6-%EA%B0%95%EC%A1%B0)
-7. [줄바꿈](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#7-%EC%A4%84%EB%B0%94%EA%BF%88)
-8. [인용구](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#8-%EC%9D%B8%EC%9A%A9%EA%B5%AC)
-9. [들여쓰기](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#9-%EB%93%A4%EC%97%AC%EC%93%B0%EA%B8%B0)
-10. [코드블럭](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#10-%EC%BD%94%EB%93%9C%EB%B8%94%EB%9F%AD)
-11. [표 (Table)](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#11-%ED%91%9C-table)
-12. [특수기호 (Backslash Escapes)](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#12-%ED%8A%B9%EC%88%98%EA%B8%B0%ED%98%B8-backslash-escapes)
+2. [문서 제목 및 글머리 (Headers)](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#1-%EB%AC%B8%EC%84%9C-%EC%A0%9C%EB%AA%A9-%EB%B0%8F-%EA%B8%80%EB%A8%B8%EB%A6%AC-headers)
+3. [목록, 글머리 기호](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#2-%EB%AA%A9%EB%A1%9D-%EA%B8%80%EB%A8%B8%EB%A6%AC-%EA%B8%B0%ED%98%B8)
+4. [체크박스](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#3-%EC%B2%B4%ED%81%AC%EB%B0%95%EC%8A%A4)
+5. [수평선 (Horizontal Rules)](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#4-%EC%88%98%ED%8F%89%EC%84%A0-horizontal-rules)
+6. [링크](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#5-%EB%A7%81%ED%81%AC)
+7. [강조](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#6-%EA%B0%95%EC%A1%B0)
+8. [특수기호 (Backslash Escapes)](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#7-%ED%8A%B9%EC%88%98%EA%B8%B0%ED%98%B8-backslash-escapes)
+9. [이모지 (Emoji)](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#8-%EC%9D%B4%EB%AA%A8%EC%A7%80-emoji)
+10. [줄바꿈](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#9-%EC%A4%84%EB%B0%94%EA%BF%88)
+11. [인용구](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#10-%EC%9D%B8%EC%9A%A9%EA%B5%AC)
+12. [들여쓰기](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#11-%EB%93%A4%EC%97%AC%EC%93%B0%EA%B8%B0)
+13. [코드블럭](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#12-%EC%BD%94%EB%93%9C%EB%B8%94%EB%9F%AD)
+14. [표 (Table)](https://github.com/WONOBOT/github_study/blob/main/Github/README/README.md#13-%ED%91%9C-table)
+
 --------
 #### 1. 문서 제목 및 글머리 (Headers)
 
@@ -325,9 +328,99 @@
     ___기울임 볼드체___ <br>
     ~~취소선~~ <br>
 
+    
     문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋음
+
 ----------
-#### 7. 줄바꿈
+#### 7. 특수기호 (Backslash Escapes)
+* **Backslash `\`** 를 이용해 특수 기호를 표시할 수 있음
+
+    ```
+    \\
+    \`
+    \*
+    \_
+    \{ \}
+    \[ \]
+    \( \)
+    \#
+    \+
+    \-
+    \.
+    \!
+    ```
+    
+    * 결과  <br>
+    \\ <br>
+    \` <br>
+    \* <br>
+    \_ <br>
+    \{ \} <br>
+    \[ \] <br>
+    \( \) <br>
+    \# <br>
+    \+ <br>
+    \- <br>
+    \. <br>
+    \! <br>
+
+----------
+#### 8. 이모지 (Emoji)
+
+* Github 에서 이모지 사용 가능
+    1. 단축키
+        * Windows 10 <br>
+            `윈도우키` + `.` or `윈도우키` + `;`
+        * Mac <br>
+            `Ctrl` + `Command` + `스페이스 바`
+
+        <p align="left">
+          <img width="35%" height="35%" src="https://user-images.githubusercontent.com/102717259/163803402-0b3bace1-9c08-4ad4-b137-2c33e5a21b95.png">
+        </p>
+        
+        위와 같이 나오면 선택하여 사용
+        
+    * 결과 <br>
+    😀 😍 👍 <br>
+    <br>
+
+    2. Copy & Paste 복사 붙여 넣기
+        * [Emojipedia](https://emojipedia.org/) : 카테고리 혹은 검색해서 Emoji를 찾을 수 있는 페이지
+        * [GetEmoji](https://getemoji.com/) : Emojipedia의 Emoji들을 바로 복사할 수 있도록 만든 페이지
+    
+        <p align="left">
+          <img width="35%" height="35%" src="https://user-images.githubusercontent.com/102717259/163804501-fbcf7bbb-a870-4ae8-aa94-598709a3de15.png">
+        </p>
+
+        위 사이트에서 원하는 이모지 Drag - Copy & Paste 해서 사용
+        
+    * 결과 <br>
+    😀 😍 👍 <br>
+    <br>
+
+    3. `: :` 사이에 직접 입력
+
+        | Markdown 문법 | Description |
+        | :---: | :---: |
+        | `:+1:` | +1 |
+        | `:sparkles:` | sparkles |
+        | `:tada:` | tada |
+        | `:rocket:` | rocket |
+        | `:octocat:` | octocat |
+
+        * [WebFX](https://www.webfx.com/tools/emoji-cheat-sheet/ "Emoji Cheat Sheet")
+
+        <p align="left">
+          <img width="35%" height="35%" src="https://user-images.githubusercontent.com/102717259/163805973-526d32e1-8b04-480e-998a-f44e59c81b0d.png">
+        </p>
+
+        위 사이트에서 더 많은 이모지를 찾을 수 있음
+
+    * 결과 <br>
+    :+1: :sparkles: :tada: :rocket: :octocat: <br>
+
+----------
+#### 9. 줄바꿈
 * 줄바꿈을 하지않으면 Enter를 입력해도 문장이 이어서 나옴
   | MD 문법 | HTML 문법 |
   |:--|:--|
@@ -351,7 +444,7 @@
     이렇게
 
 ----------
-#### 8. 인용구
+#### 10. 인용구
 * 이메일에서 사용하는 ```>``` 블럭인용문자를 이용
     ```
     > 첫번째 인용구
@@ -381,7 +474,7 @@
     >	```
 
 ----------
-#### 9. 들여쓰기
+#### 11. 들여쓰기
 * 4개의 공백 또는 하나의 탭으로 들여쓰기를 만나면 변환되기 시작하여 들여쓰지 않은 행을 만날때까지 변환됨
     ```
     This is a normal paragraph:
@@ -412,7 +505,7 @@
     end code block.
 
 ----------
-#### 10. 코드블럭
+#### 12. 코드블럭
 코드블럭은 다음과 같이 2가지 방식 사용가능
 
 * `<pre><code>{code}</code></pre>` 이용방식
@@ -530,7 +623,7 @@
     ```
 
 ----------
-#### 11. 표 (Table)
+#### 13. 표 (Table)
 * 각 셀의 구분은 **파이프`|` 기호** 로 하며, **첫번째 줄 헤더(제목)** 아래 **두번째 줄에`|---|`** 을 입력해서 표(table) 입력임을 표시 <br>
   **(`---'는 개수 무관)**
     ```
@@ -565,6 +658,7 @@
     | 내용 5 | 내용 6 | 내용 7 | 내용 8 |
 
 ----------
+
 #### 12. 특수기호 (Backslash Escapes)
 * **Backslash `\`** 를 이용해 특수 기호를 표시할 수 있음
 
@@ -598,4 +692,5 @@
     \! <br>
     
 ----------
-Emoji 이모지 Using emoji ( GitHub Flavored Markdown ), 이미지
+
+이미지
