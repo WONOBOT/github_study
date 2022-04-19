@@ -657,39 +657,54 @@
     | 내용 5 | 내용 6 | 내용 7 | 내용 8 |
 
 ----------
+#### 14. 이미지
 
-#### 12. 특수기호 (Backslash Escapes)
-* **Backslash `\`** 를 이용해 특수 기호를 표시할 수 있음
 
-    ```
-    \\
-    \`
-    \*
-    \_
-    \{ \}
-    \[ \]
-    \( \)
-    \#
-    \+
-    \-
-    \.
-    \!
-    ```
+----------
+#### 15. 수식
+
+* Github 에선 LaTeX 렌더링을 지원하지 않아 복잡하게라도 입력할 수 있음 <br>
+    1. 이미지 넣기 <br>
+        * Step 1.수식을 표현하기 위해 아래 주소를 방문 <br>
+       [Equation Editor](https://latex.codecogs.com/eqneditor/editor.php)
+        <p align="left">
+          <img width="50%" height="50%" src="https://user-images.githubusercontent.com/102717259/164021359-e55e5876-ed66-408e-b484-ded83bea07d5.png">
+        </p>
     
-    * 결과  <br>
-    \\ <br>
-    \` <br>
-    \* <br>
-    \_ <br>
-    \{ \} <br>
-    \[ \] <br>
-    \( \) <br>
-    \# <br>
-    \+ <br>
-    \- <br>
-    \. <br>
-    \! <br>
+        * Step 2. 수식 입력창에 원하는 수식을 입력
+        <p align="left">
+          <img width="50%" height="50%" src="https://user-images.githubusercontent.com/102717259/164024771-7ad42ac2-f618-4e03-ba5e-28e4a1557f1d.png">
+        </p>
+        
+        * Step 3. 아래 두번째 리스트에서 원하는 이미지 확장자를 선택 후 다운로드 하여 이미지로 수식 입력
+        <p align="left">
+          <img width="50%" height="50%" src="https://user-images.githubusercontent.com/102717259/164024294-1f7f40d5-e5d7-4eb0-8699-5d7f46a3b070.png">
+        </p>
+
+    2. 링크 넣기 <br>
+        * Step 1. 위 이미지 넣기의 Step 1, 2와 동일하게 진행
+        * Step 2. 아래 "The URL link to this equation" 부분의 내용을 복사
+        <p align="left">
+          <img width="50%" height="50%" src="https://user-images.githubusercontent.com/102717259/164025385-0137ffa5-39e9-49bb-a73e-c5e96c338bea.png">
+        </p>
+
+        * Step 3. 
+        ![수식](https://latex.codecogs.com/png.image?\dpi{110}y&space;=&space;x^2)
+
+이미지의 경우 소괄호(()) 안에 이미지의 URL을 넣으면 적용됩니다.
+캡션을 넣으시고 싶은 경우에는 파일 링크 앞에 느낌표와 대괄호를 이용하여 적습니다(![])
+ex) ![테스트이미지](https://github.com/cliche90/markdown_tutorial/blob/master/github_logo.png?raw=true)
+
+    3. 
+- \Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
+
+- x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+<img src="https://latex.codecogs.com/svg.latex?\;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
+
+- \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a} <br>
+![Large](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D) 
+
+
     
 ----------
-
-이미지
