@@ -728,7 +728,7 @@
     [link2]: https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png "이미지"
 
 * HTML 방식 <br>
-```<img src="주소" title="이름" alt="대체 문구"></img>```를 이용
+```<img src="주소" title="이름" alt="대체 문구"></img>```를 이용 (**src, title, alt** 순서는 상관 없음)
     ```
     <img src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png" title="Octocat" alt="이미지"></img>
     ```
@@ -751,24 +751,64 @@
     * 결과
     
     // 픽셀로 조정 <br>
-    <img src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png" width="450px" height="300px" title="Octocat" alt="이미지"></img> <br>
+    <img src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png" width="300px" height="300px" title="Octocat" alt="이미지"></img> <br>
     // 비율로 조정 <br>
-    <img src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png" width="40%" height="30%" title="Octocat" alt="이미지"></img> <br>
+    <img src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png" width="30%" height="30%" title="Octocat" alt="이미지"></img> <br>
 
+3. 정렬 <br>
+* 기본 방식은 정렬 기능 없음
+* HTML 방식 <br>
+`<img>` 태그로 이미지를 첨부하고, `<img>` 태그를 `<p>` 태그로 감싼 형태 `<p align="center"><img src="주소"></img></p>` 사용
 
-
-<p align="center">
-  <img width="49%" height="50%" src="https://user-images.githubusercontent.com/102717259/161380460-ca4276be-2f0f-4c04-bf1f-3ae21ae967c9.png">
-  <img width="49%" height="50%" src="https://user-images.githubusercontent.com/102717259/161380476-4ee06837-9c12-48a0-9e73-852f3b03b094.png">
-</p>
     ```
-    ![Octocat](https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png "이미지" "width:200px;height:100px")
+    // 왼쪽 정렬 (기본)
+    <p align="left">
+      <img width="30%" height="30%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img>
+    </p>
+    
+    // 가운데 정렬
+    <p align="center">
+      <img width="30%" height="30%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img>
+    </p>
+    
+    // 오른쪽 정렬
+    <p align="right">
+      <img width="30%" height="30%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img>
+    </p>
     ```
     
     * 결과
+    
+    // 왼쪽 정렬 (기본)
+    <p align="left">
+      <img width="30%" height="30%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img>
+    </p>
 
-    ![Octocat](https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png width:200px;height:100px)
+    // 가운데 정렬
+    <p align="center">
+      <img width="30%" height="30%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img>
+    </p>
 
+    // 오른쪽 정렬
+    <p align="right">
+      <img width="30%" height="30%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img>
+    </p>
+
+4. 표 안에 이미지 삽입 <br>
+
+    ```
+    | 기본 정렬 | 왼쪽 정렬 | 가운데 정렬 | 오른쪽 정렬 |
+    |-----|:----|:-----:|-----:|
+    | <img width="20%" height="20%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img> | <img width="20%" height="20%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img> | <img width="20%" height="20%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img> | <img width="20%" height="20%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img> |
+    | 내용 1 | 내용 2 | 내용 3 | 내용 4 |
+    ```
+
+    * 결과
+
+    | 기본 정렬 | 왼쪽 정렬 | 가운데 정렬 | 오른쪽 정렬 |
+    |-----|:----|:-----:|-----:|
+    | <img width="20%" height="20%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img> | <img width="20%" height="20%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img> | <img width="20%" height="20%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img> | <img width="20%" height="20%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img> |
+    | 내용 1 | 내용 2 | 내용 3 | 내용 4 |
 
 
 ----------
