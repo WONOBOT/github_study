@@ -10,16 +10,16 @@
 2. [목록, 글머리 기호](https://github.com/WONOBOT/github_study/tree/main/Github/README#2-%EB%AA%A9%EB%A1%9D-%EA%B8%80%EB%A8%B8%EB%A6%AC-%EA%B8%B0%ED%98%B8)
 3. [체크박스](https://github.com/WONOBOT/github_study/tree/main/Github/README#3-%EC%B2%B4%ED%81%AC%EB%B0%95%EC%8A%A4)
 4. [수평선 (Horizontal Rules)](https://github.com/WONOBOT/github_study/tree/main/Github/README#4-%EC%88%98%ED%8F%89%EC%84%A0-horizontal-rules)
-5. [링크](https://github.com/WONOBOT/github_study/tree/main/Github/README#5-%EB%A7%81%ED%81%AC)
-6. [강조](https://github.com/WONOBOT/github_study/tree/main/Github/README#6-%EA%B0%95%EC%A1%B0)
-7. [특수기호 (Backslash Escapes)](https://github.com/WONOBOT/github_study/tree/main/Github/README#7-%ED%8A%B9%EC%88%98%EA%B8%B0%ED%98%B8-backslash-escapes)
-8. [이모지 (Emoji)](https://github.com/WONOBOT/github_study/tree/main/Github/README#8-%EC%9D%B4%EB%AA%A8%EC%A7%80-emoji)
-9. [줄바꿈](https://github.com/WONOBOT/github_study/tree/main/Github/README#9-%EC%A4%84%EB%B0%94%EA%BF%88)
-10. [인용구](https://github.com/WONOBOT/github_study/tree/main/Github/README#10-%EC%9D%B8%EC%9A%A9%EA%B5%AC)
-11. [들여쓰기](https://github.com/WONOBOT/github_study/tree/main/Github/README#11-%EB%93%A4%EC%97%AC%EC%93%B0%EA%B8%B0)
-12. [코드블럭](https://github.com/WONOBOT/github_study/tree/main/Github/README#12-%EC%BD%94%EB%93%9C%EB%B8%94%EB%9F%AD)
-13. [표 (Table)](https://github.com/WONOBOT/github_study/tree/main/Github/README#13-%ED%91%9C-table)
-
+5. [강조](https://github.com/WONOBOT/github_study/tree/main/Github/README#5-%EA%B0%95%EC%A1%B0)
+6. [특수기호 (Backslash Escapes)](https://github.com/WONOBOT/github_study/tree/main/Github/README#6-%ED%8A%B9%EC%88%98%EA%B8%B0%ED%98%B8-backslash-escapes)
+7. [이모지 (Emoji)](https://github.com/WONOBOT/github_study/tree/main/Github/README#7-%EC%9D%B4%EB%AA%A8%EC%A7%80-emoji)
+8. [줄바꿈](https://github.com/WONOBOT/github_study/tree/main/Github/README#8-%EC%A4%84%EB%B0%94%EA%BF%88)
+9. [인용구](https://github.com/WONOBOT/github_study/tree/main/Github/README#9-%EC%9D%B8%EC%9A%A9%EA%B5%AC)
+10. [들여쓰기](https://github.com/WONOBOT/github_study/tree/main/Github/README#10-%EB%93%A4%EC%97%AC%EC%93%B0%EA%B8%B0)
+11. [코드블럭](https://github.com/WONOBOT/github_study/tree/main/Github/README#11-%EC%BD%94%EB%93%9C%EB%B8%94%EB%9F%AD)
+12. [표 (Table)](https://github.com/WONOBOT/github_study/tree/main/Github/README#12-%ED%91%9C-table)
+13. [링크](https://github.com/WONOBOT/github_study/tree/main/Github/README#13-%EB%A7%81%ED%81%AC)
+14. [이미지]()
 --------
 #### 1. 문서 제목 및 글머리 (Headers)
 
@@ -261,50 +261,7 @@
     <br>
 
 ----------
-#### 5. 링크
-* 참조링크
-
-    ```
-    [link keyword][id]
-
-    [id]: URL "Optional Title here"
-
-    // code
-    Link: [Google][googlelink]
-
-    [googlelink]: https://google.com "Go google"
-    ```
-    * 결과
-
-    Link: [Google][googlelink]
-
-    [googlelink]: https://google.com "Go google"
-
-* 외부링크
-    ```
-    사용문법: [Title](link)
-    적용예: [Google](https://google.com, "google link")
-    ```
-
-    * 결과
-    
-    Link: [Google](https://google.com, "google link")
-
-* 자동연결
-    ```
-    일반적인 URL 혹은 이메일주소인 경우 적절한 형식으로 링크를 형성
-
-    외부링크: <http://example.com/>
-    이메일링크: <address@example.com>
-    ```
-
-    * 결과
-    
-    외부링크: <http://example.com/> <br>
-    이메일링크: <address@example.com>
-
-----------
-#### 6. 강조
+#### 5. 강조
 * 문장 중간에 사용할 경우에는 띄어쓰기를 사용하는 것이 좋음
     ```    
     *기울임체*
@@ -331,7 +288,7 @@
     문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋음
 
 ----------
-#### 7. 특수기호 (Backslash Escapes)
+#### 6. 특수기호 (Backslash Escapes)
 * **Backslash `\`** 를 이용해 특수 기호를 표시할 수 있음
 
     ```
@@ -364,7 +321,7 @@
     \! <br>
 
 ----------
-#### 8. 이모지 (Emoji)
+#### 7. 이모지 (Emoji)
 
 * Github 에서 이모지 사용 가능
     1. 단축키
@@ -419,7 +376,7 @@
     :+1: :sparkles: :tada: :rocket: :octocat: <br>
 
 ----------
-#### 9. 줄바꿈
+#### 8. 줄바꿈
 * 줄바꿈을 하지않으면 Enter를 입력해도 문장이 이어서 나옴
   | MD 문법 | HTML 문법 |
   |:--|:--|
@@ -443,7 +400,7 @@
     이렇게
 
 ----------
-#### 10. 인용구
+#### 9. 인용구
 * 이메일에서 사용하는 ```>``` 블럭인용문자를 이용
     ```
     > 첫번째 인용구
@@ -473,7 +430,7 @@
     >	```
 
 ----------
-#### 11. 들여쓰기
+#### 10. 들여쓰기
 * 4개의 공백 또는 하나의 탭으로 들여쓰기를 만나면 변환되기 시작하여 들여쓰지 않은 행을 만날때까지 변환됨
     ```
     This is a normal paragraph:
@@ -504,7 +461,7 @@
     end code block.
 
 ----------
-#### 12. 코드블럭
+#### 11. 코드블럭
 코드블럭은 다음과 같이 2가지 방식 사용가능
 
 * `<pre><code>{code}</code></pre>` 이용방식
@@ -622,7 +579,7 @@
     ```
 
 ----------
-#### 13. 표 (Table)
+#### 12. 표 (Table)
 * 각 셀의 구분은 **파이프`|` 기호** 로 하며, **첫번째 줄 헤더(제목)** 아래 **두번째 줄에`|---|`** 을 입력해서 표(table) 입력임을 표시 <br>
   **(`---'는 개수 무관)**
     ```
@@ -657,7 +614,161 @@
     | 내용 5 | 내용 6 | 내용 7 | 내용 8 |
 
 ----------
+#### 13. 링크
+링크의 기본 형태는 `[이름](주소)`로 사용
+
+* 참조링크 <br>
+참조형 링크는 `[이름][참조명]`와 `[참조명]: 링크 주소 `를 함께 사용가능
+
+    ```
+    [link keyword][id]
+
+    [id]: URL "Optional Title here"
+
+    // code
+    Link: [Google][googlelink]
+
+    [googlelink]: https://google.com "Go google"
+    ```
+    * 결과
+
+    Link: [Google][googlelink]
+
+    [googlelink]: https://google.com "Go google"
+
+* 외부링크
+    ```
+    사용문법: [Title](link)
+    적용예: [Google](https://google.com, "google link")
+    ```
+
+    * 결과
+    
+    Link: [Google](https://google.com, "google link")
+
+* 자동연결
+    ```
+    일반적인 URL 혹은 이메일주소인 경우 적절한 형식으로 링크를 형성
+
+    외부링크: <http://example.com/>
+    이메일링크: <address@example.com>
+    ```
+
+    * 결과
+    
+    외부링크: <http://example.com/> <br>
+    이메일링크: <address@example.com>
+
+----------
 #### 14. 이미지
+이미지는 링크와 똑같은 형태에서 앞에 느낌표 `!`를 사용 <br>
+1. 이미지 첨부 방법
+* 기본 형태는 `![이름](주소)`이며 주소는 웹 사이트 주소, 로컬의 주소 둘다 사용가능
+    ```
+    //웹 사이트 주소
+    ![image](https://github.githubassets.com/images/modules/logos_page/Octocat.png)
+    //로컬 주소
+    ![image](https://github.githubassets.com/images/modules/logos_page/Octocat.png)
+    ![image](./Octocat.png)
+    ```
+
+    * 결과
+    
+    ![image](https://github.githubassets.com/images/modules/logos_page/Octocat.png) <br>
+    ![image](./Octocat.png) <br>
+    로컬 주소를 사용할 때는 해당 주소에 이미지가 업로드 되어있어야 사용가능
+    
+    
+* 참조형 `!이름][참조명]`와 `[참조명]: 링크 주소 ` 도 사용 가능
+    ```
+    ![image][link1]
+    
+    [link1]: https://github.githubassets.com/images/modules/logos_page/Octocat.png
+    ```
+
+    * 결과
+    
+    ![image][link1]
+    
+    [link1]: https://github.githubassets.com/images/modules/logos_page/Octocat.png
+
+* Copy & Paste (가장 많이 사용하는 방법) <br>
+웹, 바탕화면, PPT 등 Copy & Paste 로 이미지를 첨부할 수 있음
+    1. 원하는 이미지를 `Ctrl + C`
+    2. 페이지에 `Ctrl + V`
+    3. 처음 `![Uploading Octocat.png…]()` 라고 표현되며
+    4. 기다리면 주소가 자동 생성됨
+    `![Octocat](https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png)` 
+    
+    ```
+    ![Octocat](https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png)
+    ```
+    
+    * 결과
+    
+    ![Octocat](https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png)
+
+* 설명 문구 넣기 <br>
+`![이름](주소)` 안에 `" "`추가하여 `![이름](주소 "설명 문구")` 사용 <br>
+참조형은 `![이름][참조명]`와 `[참조명]: 링크 주소 "설명 문구"`
+    ```
+    ![Octocat](https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png "이미지")
+    
+    ![image][link2]
+    
+    [link2]: https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png "이미지"
+    ```
+    
+    * 결과
+    
+    ![Octocat](https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png "이미지")
+
+    ![image][link2]
+    
+    [link2]: https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png "이미지"
+
+* HTML 방식 <br>
+```<img src="주소" title="이름" alt="대체 문구"></img>```를 이용
+    ```
+    <img src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png" title="Octocat" alt="이미지"></img>
+    ```
+    
+    * 결과
+    
+    <img src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png" title="Octocat" alt="이미지"></img>
+
+
+2. 사이즈 조정 <br>
+* 기본 방식은 사이즈 조절 기능 없음
+* HTML 방식 <br>
+    ```
+    // 픽셀로 조정
+    <img src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png" width="450px" height="300px" title="Octocat" alt="이미지"></img>
+    // 비율로 조정 
+    <img src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png" width="40%" height="30%" title="Octocat" alt="이미지"></img>
+    ```
+
+    * 결과
+    
+    // 픽셀로 조정 <br>
+    <img src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png" width="450px" height="300px" title="Octocat" alt="이미지"></img> <br>
+    // 비율로 조정 <br>
+    <img src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png" width="40%" height="30%" title="Octocat" alt="이미지"></img> <br>
+
+
+
+<p align="center">
+  <img width="49%" height="50%" src="https://user-images.githubusercontent.com/102717259/161380460-ca4276be-2f0f-4c04-bf1f-3ae21ae967c9.png">
+  <img width="49%" height="50%" src="https://user-images.githubusercontent.com/102717259/161380476-4ee06837-9c12-48a0-9e73-852f3b03b094.png">
+</p>
+    ```
+    ![Octocat](https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png "이미지" "width:200px;height:100px")
+    ```
+    
+    * 결과
+
+    ![Octocat](https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png width:200px;height:100px)
+
 
 
 ----------
