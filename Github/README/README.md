@@ -19,7 +19,7 @@
 11. [코드블럭](https://github.com/WONOBOT/github_study/tree/main/Github/README#11-%EC%BD%94%EB%93%9C%EB%B8%94%EB%9F%AD)
 12. [표 (Table)](https://github.com/WONOBOT/github_study/tree/main/Github/README#12-%ED%91%9C-table)
 13. [링크](https://github.com/WONOBOT/github_study/tree/main/Github/README#13-%EB%A7%81%ED%81%AC)
-14. [이미지]()
+14. [이미지](https://github.com/WONOBOT/github_study/tree/main/Github/README#14-%EC%9D%B4%EB%AF%B8%EC%A7%80)
 --------
 #### 1. 문서 제목 및 글머리 (Headers)
 
@@ -817,45 +817,43 @@
 * Github 에선 LaTeX 렌더링을 지원하지 않아 복잡하게라도 입력할 수 있음 <br>
     1. 이미지 넣기 <br>
         * Step 1.수식을 표현하기 위해 아래 주소를 방문 <br>
-       [Equation Editor](https://latex.codecogs.com/eqneditor/editor.php)
+       [CODECOGS](https://www.codecogs.com/latex/eqneditor.php "Equation Editor")
         <p align="left">
           <img width="50%" height="50%" src="https://user-images.githubusercontent.com/102717259/164021359-e55e5876-ed66-408e-b484-ded83bea07d5.png">
         </p>
     
         * Step 2. 수식 입력창에 원하는 수식을 입력
         <p align="left">
-          <img width="50%" height="50%" src="https://user-images.githubusercontent.com/102717259/164024771-7ad42ac2-f618-4e03-ba5e-28e4a1557f1d.png">
+          <img width="50%" height="50%" src="https://user-images.githubusercontent.com/102717259/164489439-4469cae3-3936-4627-b06e-e3cfac0f3674.png">
         </p>
         
-        * Step 3. 아래 두번째 리스트에서 원하는 이미지 확장자를 선택 후 다운로드 하여 이미지로 수식 입력
+        * Step 3. 아래 두번째 리스트에서 원하는 이미지 확장자를 선택 후 다운로드
         <p align="left">
-          <img width="50%" height="50%" src="https://user-images.githubusercontent.com/102717259/164024294-1f7f40d5-e5d7-4eb0-8699-5d7f46a3b070.png">
+          <img width="50%" height="50%" src="https://user-images.githubusercontent.com/102717259/164489181-a308fc67-c833-467e-b326-38c9a7a4b45c.png">
         </p>
+
+        * Step 4. 이미지 삽입 <br>
+        ```
+        ![CodeCogsEqn](https://user-images.githubusercontent.com/102717259/164489790-be7e8cd5-33b9-4575-ba59-42f2fe4133ce.png)
+        ```
+    
+    * 결과
+
+    ![CodeCogsEqn](https://user-images.githubusercontent.com/102717259/164489790-be7e8cd5-33b9-4575-ba59-42f2fe4133ce.png)
 
     2. 링크 넣기 <br>
         * Step 1. 위 이미지 넣기의 Step 1, 2와 동일하게 진행
         * Step 2. 아래 "The URL link to this equation" 부분의 내용을 복사
         <p align="left">
-          <img width="50%" height="50%" src="https://user-images.githubusercontent.com/102717259/164025385-0137ffa5-39e9-49bb-a73e-c5e96c338bea.png">
+          <img width="50%" height="50%" src="https://user-images.githubusercontent.com/102717259/164488556-cc2415a1-ca02-42e9-b22f-c55108206f45.png">
         </p>
 
-        * Step 3. 
-        ![수식](https://latex.codecogs.com/png.image?\dpi{110}y&space;=&space;x^2)
-
-이미지의 경우 소괄호(()) 안에 이미지의 URL을 넣으면 적용됩니다.
-캡션을 넣으시고 싶은 경우에는 파일 링크 앞에 느낌표와 대괄호를 이용하여 적습니다(![])
-ex) ![테스트이미지](https://github.com/cliche90/markdown_tutorial/blob/master/github_logo.png?raw=true)
-
-    3. 
-- \Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
-
-- x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
-<img src="https://latex.codecogs.com/svg.latex?\;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  
-
-- \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a} <br>
-![Large](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D) 
-
-
+        * Step 3. 복사한 링크 입력<br> 
+        ```
+        ![수식](https://latex.codecogs.com/png.image?\dpi{110}x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
+        ```
+    * 결과
+   
+    ![수식](https://latex.codecogs.com/png.image?\dpi{110}x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) <br>
     
 ----------
