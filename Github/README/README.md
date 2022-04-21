@@ -20,6 +20,7 @@
 12. [표 (Table)](https://github.com/WONOBOT/github_study/tree/main/Github/README#12-%ED%91%9C-table)
 13. [링크](https://github.com/WONOBOT/github_study/tree/main/Github/README#13-%EB%A7%81%ED%81%AC)
 14. [이미지](https://github.com/WONOBOT/github_study/tree/main/Github/README#14-%EC%9D%B4%EB%AF%B8%EC%A7%80)
+15. [수식](https://github.com/WONOBOT/github_study/tree/main/Github/README#15-%EC%88%98%EC%8B%9D)
 --------
 #### 1. 문서 제목 및 글머리 (Headers)
 
