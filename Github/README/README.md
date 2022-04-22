@@ -21,6 +21,8 @@
 13. [링크](https://github.com/WONOBOT/github_study/tree/main/Github/README#13-%EB%A7%81%ED%81%AC)
 14. [이미지](https://github.com/WONOBOT/github_study/tree/main/Github/README#14-%EC%9D%B4%EB%AF%B8%EC%A7%80)
 15. [수식](https://github.com/WONOBOT/github_study/tree/main/Github/README#15-%EC%88%98%EC%8B%9D)
+16. [하이퍼링크](https://github.com/WONOBOT/github_study/tree/main/Github/README#16-%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A7%81%ED%81%AC)
+
 --------
 #### 1. 문서 제목 및 글머리 (Headers)
 
@@ -817,7 +819,6 @@
     | <img width="20%" height="20%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img> | <img width="20%" height="20%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img> | <img width="20%" height="20%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img> | <img width="20%" height="20%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"></img> |
     | 내용 1 | 내용 2 | 내용 3 | 내용 4 |
 
-
 ----------
 #### 15. 수식
 
@@ -863,4 +864,36 @@
    
     ![수식](https://latex.codecogs.com/png.image?\dpi{110}x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) <br>
     
+----------
+#### 16. 하이퍼링크
+
+* HTML의 방식으로 하이퍼링크를 만들 수 있음 <br>
+  링크를 만드는 `<a>` 태그와 속성 `href`를 이용해 텍스트와 함께 사용하면 텍스트 링크가 되고 이미지와 함꼐 사용하면 이미지 링크로 사용 가능
+
+    ```
+    <a href="링크할 주소"> 텍스트 </a>
+    <a href="링크할 주소"><img src="이미지 파일 경로"> </a>
+        
+    //텍스트 하이퍼링크
+    <a href="https://github.com/logos"> 깃허브 로고 </a>
+    
+    //이미지 하이퍼링크
+    <a href="https://github.com/logos"> <img width="30%" height="30%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"> </img> </a>
+    
+    ```
+
+    * 결과
+
+    //텍스트 하이퍼링크 <br>
+    <a href="https://github.com/logos"> 깃허브 로고 </a>
+    
+    //이미지 하이퍼링크 <br>
+    <a href="https://github.com/logos"> <img width="30%" height="30%" src="https://user-images.githubusercontent.com/102717259/164249713-5cde882a-8088-483c-99ee-71b1b17d369c.png"> </img> </a>
+
+<a href="https://github.com/WONOBOT/github_study/tree/main/Github/README#readmemd%EB%A7%88%ED%8A%B8-%EB%8B%A4%EC%9A%B4-%EB%AC%B8%EB%B2%95">
+    <p align="right">
+      <img width="2.5%" height="2.5%" src="https://user-images.githubusercontent.com/102717259/164491959-601de2b6-d39a-44b9-a09d-101181a41b73.png">
+    </p>
+</a>
+
 ----------
