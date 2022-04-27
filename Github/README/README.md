@@ -248,6 +248,12 @@
     - [ ] 체크박스(false)
     - [x] 체크박스(true)
 
+<a href="https://github.com/WONOBOT/github_study/tree/main/Github/README#readmemd%EB%A7%88%ED%8A%B8-%EB%8B%A4%EC%9A%B4-%EB%AC%B8%EB%B2%95">
+    <p align="right">
+      <img width="2.5%" height="2.5%" src="https://user-images.githubusercontent.com/102717259/164491959-601de2b6-d39a-44b9-a09d-101181a41b73.png">
+    </p>
+</a>
+
 ----------
 #### 4. 수평선 (Horizontal Rules)
 * 아래 줄은 모두 수평선, 마크다운 문서를 미리보기로 출력할 때 **페이지 나누기** 용도로 많이 사용
